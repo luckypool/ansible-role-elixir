@@ -1,12 +1,15 @@
 ---
 - name: Add Erlang Solutions repo
-  apt_repository: repo="deb https://packages.erlang-solutions.com/debian stable contrib"
+  apt_repository: repo="deb https://packages.erlang-solutions.com/debian trusty contrib"
+
+- name: Add Erlang Solusion repo key
+  apt_key: url="https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc"
 
 - name: Update apt cache.
   apt: update_cache=yes cache_valid_time=86400
 
 - name: Install Erlang/OTP
-  apt: name=esl-erlang state=installed
+  apt: name=esl-erlang state=installed force=yes
 
 - name: Install Elixir
-  apt: name=elixir state=installed
+  apt: name=elixir state=installed force=yes
