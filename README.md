@@ -1,13 +1,11 @@
-Role Name
-=========
+luckypool.elixir
+================
 
 A brief description of the role goes here.
 
 [![Build Status](https://travis-ci.org/luckypool/ansible-role-elixir.svg?branch=master)](https://travis-ci.org/luckypool/ansible-role-elixir)
 
-Install elixir to ubuntu.
-
-- http://elixir-lang.org/install.html#unix-and-unix-like
+Install [elixir](http://elixir-lang.org/install.html#unix-and-unix-like) to ubuntu.
 
 Requirements
 ------------
