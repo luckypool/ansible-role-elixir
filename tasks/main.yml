@@ -1,2 +1,12 @@
 ---
-# tasks file for ansible-role-elixir
+- name: Add Erlang Solutions repo
+  apt_repository: repo="deb https://packages.erlang-solutions.com/debian stable contrib"
+
+- name: Update apt cache.
+  apt: update_cache=yes cache_valid_time=86400
+
+- name: Install Erlang/OTP
+  apt: name=esl-erlang state=installed
+
+- name: Install Elixir
+  apt: name=elixir state=installed
