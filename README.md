@@ -1,8 +1,6 @@
 luckypool.elixir
 ================
 
-A brief description of the role goes here.
-
 [![Build Status](https://travis-ci.org/luckypool/ansible-role-elixir.svg?branch=master)](https://travis-ci.org/luckypool/ansible-role-elixir)
 
 Install [elixir](http://elixir-lang.org/install.html#unix-and-unix-like) to ubuntu.
@@ -49,4 +47,4 @@ MIT
 Author Information
 ------------------
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/luckypool/ansible-role-elixir
+Bug reports and pull requests are welcome on GitHub at [https://github.com/luckypool/ansible-role-elixir](https://github.com/luckypool/ansible-role-elixir)
