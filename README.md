@@ -28,6 +28,7 @@ Tested env:
     - name: Ubuntu
       versions:
         - trusty
+        - xenial
 ```
 
 Example Playbook
